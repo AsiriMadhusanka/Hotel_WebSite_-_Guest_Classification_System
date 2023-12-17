@@ -1,0 +1,32 @@
+.notification {
+  position: relative;
+}
+
+.notification:hover {
+  cursor: pointer;
+}
+
+.number {
+  position: absolute;
+  font-size: 14px;
+  top: -4px;
+  left: 22px;
+}
+
+.notificationBox {
+  position: absolute;
+  background-color: aliceblue;
+  color: #111;
+  width: 300px;
+  right: 0;
+  top: 40px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.list {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 20px 5px;
+  padding-left: 30px;
+}
